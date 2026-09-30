@@ -32,8 +32,7 @@ I build machine-learning systems that run **live**, not just in notebooks: strea
 | [**Deterministic Agent Orchestration**](https://github.com/Veladicodes/deterministic-agent-orchestration-mega-ai) | Multi-agent framework with execution tracing, replayability and behavioural evaluation. 122 tests | Python · FastAPI |
 | [**Drone Fire Detection (RAG)**](https://github.com/Veladicodes/cloud-rag-drone-fire-detection) | UAV + YOLO edge detection feeding a FAISS-backed RAG pipeline that drafts response plans | YOLO · FastAPI · FAISS · Azure |
 | [**Real-Time Fake Job Detector**](https://github.com/Veladicodes/Realtime-Fake-Job-Predictor) | Streaming pipeline that flags fraudulent job postings the moment they appear | Kafka · Spark · FastAPI · Next.js |
-| [**Adaptive Cruise Control + TTC**](https://github.com/Veladicodes/Adaptive-Driving-Mode-powered-by-a-Time-To-Collision-TTC-Predictor) | Fuzzy-logic vs PID cruise control with time-to-collision adaptive driving modes | Python |
-| [**Collaborative Drawing Canvas**](https://github.com/Veladicodes/flam-drawing-canvas) | Multiplayer canvas with live cursors and synced undo/redo. [Live demo](https://flam-drawing-canvas.vercel.app) | React · TypeScript · PartyKit |
+| [**RetailSense Lite**](https://github.com/Veladicodes/RetailSense_Lite) | Retail demand forecasting with baseline and ML models, SHAP explainability and an interactive Streamlit dashboard | Python · XGBoost · LightGBM · Prophet · Streamlit |
 
 ## 🧰 Tech stack
 
