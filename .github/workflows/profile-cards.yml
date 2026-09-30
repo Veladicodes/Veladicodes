@@ -14,22 +14,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # The action generates the SVG cards and pushes them to main itself
+      # (AUTO_PUSH defaults to true).
       - name: Generate cards
-        uses: vn7n24fzkq/github-profile-summary-cards@release/v4
+        uses: vn7n24fzkq/github-profile-summary-cards@v0.12.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          THEMES: "github_dark"
-
-      - name: Commit cards
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-summary-card-output
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: refresh profile summary cards"
-            git push
-          fi
+          THEME: github_dark
