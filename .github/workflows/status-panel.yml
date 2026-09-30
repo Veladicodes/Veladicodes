@@ -33,5 +33,9 @@ jobs:
             echo "Status panel unchanged"
           else
             git commit -m "chore: refresh live status panel"
-            git push
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase origin main && git push && exit 0
+              sleep $((attempt * 5))
+            done
+            exit 1
           fi
