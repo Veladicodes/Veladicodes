@@ -1,0 +1,35 @@
+name: Profile summary cards
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release/v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          THEMES: "github_dark"
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-summary-card-output
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: refresh profile summary cards"
+            git push
+          fi
