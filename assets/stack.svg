@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 104" width="1000" height="104" role="img" aria-label="Technologies used: Python, TypeScript, React, Next.js, FastAPI, PyTorch, XGBoost, Kafka, Spark, Docker, PostgreSQL, Azure, Terraform">
+  <style>
+    .chip { fill: #0d1117; stroke: #22d3ee; stroke-opacity: 0.5; }
+    .label { font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace; font-size: 14px; fill: #e6edf3; text-anchor: middle; }
+    .c { animation: rise 0.6s ease-out both; }
+    @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .c { animation: none; } }
+  </style>
+
+  <g class="c" style="animation-delay:0.00s"><rect class="chip" x="60"  y="12" width="82"  height="34" rx="17"/><text class="label" x="101" y="34">Python</text></g>
+  <g class="c" style="animation-delay:0.05s"><rect class="chip" x="154" y="12" width="116" height="34" rx="17"/><text class="label" x="212" y="34">TypeScript</text></g>
+  <g class="c" style="animation-delay:0.10s"><rect class="chip" x="282" y="12" width="74"  height="34" rx="17"/><text class="label" x="319" y="34">React</text></g>
+  <g class="c" style="animation-delay:0.15s"><rect class="chip" x="368" y="12" width="91"  height="34" rx="17"/><text class="label" x="413.5" y="34">Next.js</text></g>
+  <g class="c" style="animation-delay:0.20s"><rect class="chip" x="471" y="12" width="91"  height="34" rx="17"/><text class="label" x="516.5" y="34">FastAPI</text></g>
+  <g class="c" style="animation-delay:0.25s"><rect class="chip" x="574" y="12" width="91"  height="34" rx="17"/><text class="label" x="619.5" y="34">PyTorch</text></g>
+  <g class="c" style="animation-delay:0.30s"><rect class="chip" x="677" y="12" width="91"  height="34" rx="17"/><text class="label" x="722.5" y="34">XGBoost</text></g>
+  <g class="c" style="animation-delay:0.35s"><rect class="chip" x="780" y="12" width="74"  height="34" rx="17"/><text class="label" x="817" y="34">Kafka</text></g>
+  <g class="c" style="animation-delay:0.40s"><rect class="chip" x="866" y="12" width="74"  height="34" rx="17"/><text class="label" x="903" y="34">Spark</text></g>
+
+  <g class="c" style="animation-delay:0.45s"><rect class="chip" x="292" y="58" width="82"  height="34" rx="17"/><text class="label" x="333" y="80">Docker</text></g>
+  <g class="c" style="animation-delay:0.50s"><rect class="chip" x="386" y="58" width="116" height="34" rx="17"/><text class="label" x="444" y="80">PostgreSQL</text></g>
+  <g class="c" style="animation-delay:0.55s"><rect class="chip" x="514" y="58" width="74"  height="34" rx="17"/><text class="label" x="551" y="80">Azure</text></g>
+  <g class="c" style="animation-delay:0.60s"><rect class="chip" x="600" y="58" width="108" height="34" rx="17"/><text class="label" x="654" y="80">Terraform</text></g>
+</svg>

@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0ea5e9,100:22d3ee&height=200&section=header&text=Adithya%20A&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=AI%20%26%20ML%20Engineer%20%C2%B7%20Real-Time%20Systems%20%C2%B7%20Security&descAlignY=58&descSize=18" alt="Adithya A banner" />
-
-<a href="https://github.com/Veladicodes">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=22D3EE&center=true&vCenter=true&width=640&lines=Building+real-time+ML+systems;GPU-accelerated+intrusion+detection;Deterministic+multi-agent+orchestration;RAG+%2B+computer+vision+for+the+real+world" alt="Typing tagline" />
-</a>
+<img src="assets/banner.svg" alt="Adithya A, AI and ML engineer building real-time systems" width="100%" />
 
 <br/>
 
@@ -21,9 +17,15 @@ I build machine-learning systems that run **live**, not just in notebooks: strea
 
 I report results the way they came out. The drone project below missed its own 0.88 mAP target, and the README says so.
 
-## 🚀 Flagship projects
+## 🟢 Live system status
 
-Each one has passing CI and a tagged release.
+Each row is read from the GitHub API by a scheduled workflow, not typed by hand.
+
+<div align="center">
+  <img src="assets/status.svg" alt="Live status of the four flagship projects: CI result, latest release and last push" width="100%" />
+</div>
+
+## 🚀 Flagship projects
 
 | | Project | What it is | Evidence |
 |---|---|---|---|
@@ -37,9 +39,15 @@ Also: [**RetailSense Lite**](https://github.com/Veladicodes/RetailSense_Lite), r
 ## 🧰 Tech stack
 
 <div align="center">
+  <img src="assets/stack.svg" alt="Python, TypeScript, React, Next.js, FastAPI, PyTorch, XGBoost, Kafka, Spark, Docker, PostgreSQL, Azure, Terraform" width="100%" />
+</div>
 
-<img src="https://skillicons.dev/icons?i=python,typescript,js,react,nextjs,fastapi,pytorch,docker,kafka,postgres,azure,git,vscode&perline=13" alt="Tech stack icons" />
+## 🏙️ My GitHub skyline
 
+My last year of contributions as a 3D city: each tower is a day of work, and the radar and donut show what kind of work and in which languages. It is regenerated daily from my real activity.
+
+<div align="center">
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar with activity radar and language breakdown" width="100%" />
 </div>
 
 ## 📊 GitHub activity
