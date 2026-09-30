@@ -17,14 +17,6 @@ I build machine-learning systems that run **live**, not just in notebooks: strea
 
 I report results the way they came out. The drone project below missed its own 0.88 mAP target, and the README says so.
 
-## 🟢 Live system status
-
-Each row is read from the GitHub API by a scheduled workflow, not typed by hand.
-
-<div align="center">
-  <img src="assets/status.svg" alt="Live status of the four flagship projects: CI result, latest release and last push" width="100%" />
-</div>
-
 ## 🚀 Flagship projects
 
 | | Project | What it is | Evidence |
@@ -42,13 +34,23 @@ Also: [**RetailSense Lite**](https://github.com/Veladicodes/RetailSense_Lite), r
   <img src="assets/stack.svg" alt="Python, TypeScript, React, Next.js, FastAPI, PyTorch, XGBoost, Kafka, Spark, Docker, PostgreSQL, Azure, Terraform" width="100%" />
 </div>
 
-## 🏙️ My GitHub skyline
+## 🐍 Play snake with me
 
-My last year of contributions as a 3D city: each tower is a day of work, and the radar and donut show what kind of work and in which languages. It is regenerated daily from my real activity.
+A real game, played by clicking. Each link opens a pre-filled issue: just press **Submit new issue**. A GitHub Actions workflow moves the snake one step, redraws the board and closes the issue, usually within a minute. Refresh this page to see your move. You need to be signed in to GitHub.
 
 <div align="center">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar with activity radar and language breakdown" width="100%" />
+  <img src="assets/snake-game.svg" alt="The current snake game board" width="640" />
+
+| | | |
+|:-:|:-:|:-:|
+| | [⬆️ **Up**](https://github.com/Veladicodes/Veladicodes/issues/new?title=snake%7Cup&body=Just+click+%22Submit+new+issue%22.+You+do+not+need+to+change+anything.) | |
+| [⬅️ **Left**](https://github.com/Veladicodes/Veladicodes/issues/new?title=snake%7Cleft&body=Just+click+%22Submit+new+issue%22.+You+do+not+need+to+change+anything.) | [⬇️ **Down**](https://github.com/Veladicodes/Veladicodes/issues/new?title=snake%7Cdown&body=Just+click+%22Submit+new+issue%22.+You+do+not+need+to+change+anything.) | [➡️ **Right**](https://github.com/Veladicodes/Veladicodes/issues/new?title=snake%7Cright&body=Just+click+%22Submit+new+issue%22.+You+do+not+need+to+change+anything.) |
+
+[🔄 **New game**](https://github.com/Veladicodes/Veladicodes/issues/new?title=snake%7Cnew&body=Just+click+%22Submit+new+issue%22.+You+do+not+need+to+change+anything.)
+
 </div>
+
+<sub>One click is one step. Hitting a wall or yourself ends the game, and reversing straight back is ignored. The game logic lives in [`game/`](game/) and has its own tests.</sub>
 
 ## 📊 GitHub activity
 
@@ -59,6 +61,8 @@ My last year of contributions as a 3D city: each tower is a day of work, and the
 <img height="180" src="profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Top languages by commit" />
 
 <br/>
+
+The autopilot version: a snake that eats my contribution graph.
 
 <img src="https://raw.githubusercontent.com/Veladicodes/Veladicodes/output/github-snake-dark.svg" alt="Contribution snake" />
 

@@ -1,0 +1,29 @@
+{
+  "width": 20,
+  "height": 12,
+  "snake": [
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      3,
+      6
+    ]
+  ],
+  "direction": "right",
+  "food": [
+    19,
+    8
+  ],
+  "score": 0,
+  "best": 0,
+  "moves": 0,
+  "alive": true,
+  "won": false,
+  "last_player": ""
+}
