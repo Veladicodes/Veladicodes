@@ -1,0 +1,37 @@
+name: Status panel
+
+on:
+  schedule:
+    - cron: "30 1 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/build_status.py
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build status panel
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/build_status.py > assets/status.svg.new
+
+      - name: Commit if changed
+        run: |
+          mv assets/status.svg.new assets/status.svg
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/status.svg
+          if git diff --cached --quiet; then
+            echo "Status panel unchanged"
+          else
+            git commit -m "chore: refresh live status panel"
+            git push
+          fi
