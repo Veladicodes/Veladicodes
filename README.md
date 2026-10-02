@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="assets/banner.svg" alt="Adithya A, AI and ML engineer building real-time systems" width="100%" />
 
@@ -26,7 +26,7 @@ I report results the way they came out. The drone project below missed its own 0
 | 🔍 | [**Real-Time Fake Job Detector**](https://github.com/Veladicodes/Realtime-Fake-Job-Predictor) <br/> [![CI](https://github.com/Veladicodes/Realtime-Fake-Job-Predictor/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Veladicodes/Realtime-Fake-Job-Predictor/actions/workflows/ci.yml) [![release](https://img.shields.io/github/v/release/Veladicodes/Realtime-Fake-Job-Predictor)](https://github.com/Veladicodes/Realtime-Fake-Job-Predictor/releases) | Streaming pipeline that flags fraudulent job postings as they arrive: Kafka, Spark, PostgreSQL, FastAPI, Next.js | F1 **75.6%**, precision **82.3%**, recall **70.0%** on data with 4.8% fraud, with the threshold tuned on a validation split |
 | 🔥 | [**Drone Fire Detection with RAG**](https://github.com/Veladicodes/cloud-rag-drone-fire-detection) <br/> [![CI](https://github.com/Veladicodes/cloud-rag-drone-fire-detection/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Veladicodes/cloud-rag-drone-fire-detection/actions/workflows/ci.yml) [![release](https://img.shields.io/github/v/release/Veladicodes/cloud-rag-drone-fire-detection)](https://github.com/Veladicodes/cloud-rag-drone-fire-detection/releases) | YOLO edge detection feeding a FAISS-backed RAG pipeline that drafts cited response plans for wildfire responders | mAP@0.5 **0.733** (the 0.88 target was not met), about 73 ms detect-to-plan with a mock LLM, about 198 messages/s across 10 simulated drones |
 
-Also: [**RetailSense Lite**](https://github.com/Veladicodes/RetailSense_Lite), retail demand forecasting with a Prophet, XGBoost and LightGBM ensemble, anomaly detection and a Streamlit dashboard.
+Also: [**RetailSense Lite**](https://github.com/Veladicodes/RetailSense_Lite) [![CI](https://github.com/Veladicodes/RetailSense_Lite/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Veladicodes/RetailSense_Lite/actions/workflows/ci.yml) [![release](https://img.shields.io/github/v/release/Veladicodes/RetailSense_Lite)](https://github.com/Veladicodes/RetailSense_Lite/releases), retail demand forecasting with a Prophet, XGBoost and LightGBM ensemble, anomaly detection and a Streamlit dashboard.
 
 ## 🧰 Tech stack
 
