@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="assets/banner.svg" alt="Adithya A, AI and ML engineer building real-time systems" width="100%" />
 
@@ -33,24 +33,6 @@ Also: [**RetailSense Lite**](https://github.com/Veladicodes/RetailSense_Lite), r
 <div align="center">
   <img src="assets/stack.svg" alt="Python, TypeScript, React, Next.js, FastAPI, PyTorch, XGBoost, Kafka, Spark, Docker, PostgreSQL, Azure, Terraform" width="100%" />
 </div>
-
-## 🐍 Play snake with me
-
-A real game, played by clicking. Each link opens a pre-filled issue: just press **Submit new issue**. A GitHub Actions workflow moves the snake one step, redraws the board and closes the issue, usually within a minute. Refresh this page to see your move. You need to be signed in to GitHub.
-
-<div align="center">
-  <img src="assets/snake-game.svg" alt="The current snake game board" width="640" />
-
-| | | |
-|:-:|:-:|:-:|
-| | [⬆️ **Up**](https://github.com/Veladicodes/Veladicodes/issues/new?title=snake%7Cup&body=Just+click+%22Submit+new+issue%22.+You+do+not+need+to+change+anything.) | |
-| [⬅️ **Left**](https://github.com/Veladicodes/Veladicodes/issues/new?title=snake%7Cleft&body=Just+click+%22Submit+new+issue%22.+You+do+not+need+to+change+anything.) | [⬇️ **Down**](https://github.com/Veladicodes/Veladicodes/issues/new?title=snake%7Cdown&body=Just+click+%22Submit+new+issue%22.+You+do+not+need+to+change+anything.) | [➡️ **Right**](https://github.com/Veladicodes/Veladicodes/issues/new?title=snake%7Cright&body=Just+click+%22Submit+new+issue%22.+You+do+not+need+to+change+anything.) |
-
-[🔄 **New game**](https://github.com/Veladicodes/Veladicodes/issues/new?title=snake%7Cnew&body=Just+click+%22Submit+new+issue%22.+You+do+not+need+to+change+anything.)
-
-</div>
-
-<sub>One click is one step. Hitting a wall or yourself ends the game, and reversing straight back is ignored. The game logic lives in [`game/`](game/) and has its own tests.</sub>
 
 ## 📊 GitHub activity
 
