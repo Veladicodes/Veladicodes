@@ -13,7 +13,7 @@
 
 ## 👋 About
 
-I build machine-learning systems that run **live**, not just in notebooks: streaming pipelines, GPU inference, agent frameworks you can replay and audit, and dashboards that make the output usable. B.Tech student at VIT.
+I build machine-learning systems that run **live**, not just in notebooks: streaming pipelines, agent frameworks you can replay and audit, and dashboards that make the output usable. B.Tech student at VIT.
 
 I report results the way they came out. The drone project below missed its own 0.88 mAP target, and the README says so.
 
@@ -32,22 +32,6 @@ Also: [**RetailSense Lite**](https://github.com/Veladicodes/RetailSense_Lite), r
 
 <div align="center">
   <img src="assets/stack.svg" alt="Python, TypeScript, React, Next.js, FastAPI, PyTorch, XGBoost, Kafka, Spark, Docker, PostgreSQL, Azure, Terraform" width="100%" />
-</div>
-
-## 📊 GitHub activity
-
-<div align="center">
-
-<img height="180" src="profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub stats" />
-<img height="180" src="profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Top languages by repo" />
-<img height="180" src="profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Top languages by commit" />
-
-<br/>
-
-The autopilot version: a snake that eats my contribution graph.
-
-<img src="https://raw.githubusercontent.com/Veladicodes/Veladicodes/output/github-snake-dark.svg" alt="Contribution snake" />
-
 </div>
 
 ---
